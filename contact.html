@@ -1,0 +1,145 @@
+<!doctype html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width">
+    <meta charset="utf-8">
+    <meta name="author" content="Dave Scheurwater, Wendy Segaar">
+    <meta name="description" content="Kapperszaak de scheve schaar">
+    <meta name="keywords"
+          content="Kapperszaak, de scheve schaar, kapper, haarstyle, bruidskapsels, knippen, verven, permanent">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/main.css"/>
+    <link rel="stylesheet" type="text/css" href="css/dave.css"/>
+    <link href="https://fonts.googleapis.com/css?family=Source+Serif+Pro" rel="stylesheet">
+    <script src="js/script.js"></script>
+    <script src="js/maps.js"></script>
+    <title>De scheve schaar</title>
+</head>
+<body>
+<header>
+    <img class="logo" src="images/logo.png" alt="logo">
+    <div class="contactContainer">
+        <div class="locatieContainer">
+            <img class="locatiePicto" src="images/locatie.png" alt="locatie picto">
+            Alphen aan den rijn<br/>
+            Van Mandersloostraat 100
+        </div>
+        <div class="telContainer">
+            <img class="telPicto" src="images/tel.png" alt="locatie picto">
+            Tel: 0172-47 67 64
+        </div>
+    </div>
+    <nav>
+        <ul>
+            <li class="displayMobile"><img class="menuPicto" src="images/hamburger.png" alt="menu"
+                                           onclick="dropdown();">
+                <ul Id="dropdown">
+                    <li><a href="over.html">Over</a></li>
+                    <li><a href="prijzen.html">Prijzen</a></li>
+                    <li><a href="afspraak_maken.html">Afspraak maken</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </li>
+            <li class="displayMobile"><a href="index.html"><img class="menuPicto" src="images/home.png" alt="home"></a>
+            </li>
+            <li class="defaultli"><a class="displayDefault" href="index.html">Home</a></li>
+            <li class="defaultli displayDefault"><a href="over.html">Over</a></li>
+            <li class="defaultli displayDefault"><a href="prijzen.html">Prijzen</a></li>
+            <li class="defaultli displayDefault"><a href="afspraak_maken.html">Afspraak maken</a></li>
+            <li class="defaultli displayDefault"><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+<a name="openingstijden">
+<article class="textContainer">
+    <h1>Openings tijden</h1>
+</article>
+</a>
+<table>
+<tr>
+    <th>Dagen</th>
+    <th>Tijden</th>
+</tr>
+<tr>
+    <td> Zondag</td>
+    <td>Gesloten</td>
+</tr>
+<tr>
+    <td> Maandag</td>
+    <td>12:00 - 18:00</td>
+</tr>
+<tr>
+    <td> Dinsdag</td>
+    <td>09:00 - 18:00</td>
+</tr>
+<tr>
+    <td> Woensdag</td>
+    <td>09:00 - 18:00</td>
+</tr>
+<tr>
+    <td> Donderdag</td>
+    <td>09:00 - 18:00</td>
+</tr>
+<tr>
+    <td> Vrijdag</td>
+    <td>09:00 - 18:00</td>
+</tr>
+<tr>
+    <td> Zaterdag</td>
+    <td>12:00 - 18:00</td>
+</tr>
+</table>
+<a name="locatie">
+<article class="textContainer">
+    <h1>Locatie</h1>
+    <p>
+        Alpen aan de rijn<br>
+        Mandersloostraat 100<br>
+        2406 CE<br>
+    </p>
+</article>
+</a>
+<div id="map">
+    <script async defer
+            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC4XrsdDwV8_mrurvC1EDURk4X5Nl1w-BI&callback=initMap">
+    </script>
+</div>
+<footer>
+    <div class="row">
+        <div class="linkList">
+            <a href="index.html">Home</a>
+        </div>
+        <div class="linkList">
+            <a href="over.html">Over</a>
+            <ul>
+                <li><a href="over.html#desalon">De salon</a></li>
+                <li><a href="over.html#onsteam">Ons team</a></li>
+            </ul>
+        </div>
+        <div class="linkList">
+            <a href="prijzen.html">Prijzen</a>
+            <ul>
+                <li><a href="prijzen.html#prijs">Man</a></li>
+                <li><a href="prijzen.html#prijs">Vrouw</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="row">
+        <div class="linkList">
+            <a href="afspraak_maken.html">Afspraak maken</a>
+        </div>
+        <div class="linkList">
+            <a href="contact.html">Contact</a>
+            <ul>
+                <li><a href="contact.html#openingstijden">Openingstijden</a></li>
+                <li><a href="contact.html#locatie">Locatie</a></li>
+                <li><a href="https://www.facebook.nl" target="_blank">Social Media</a></li>
+            </ul>
+        </div>
+    </div>
+</footer>
+<div class="disclaimer">
+    &copy; Kapperszaak De scheveschaar - All rights reserved
+</div>
+</body>
+</html>
